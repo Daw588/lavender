@@ -2,8 +2,9 @@
 	"name": "@daw588/lavender",
 	"module": "src/index.ts",
 	"author": "Daw588",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"type": "module",
+	"license": "AGPL-3.0-only",
 	"bin": {
 		"lavender": "src/index.ts"
 	},
