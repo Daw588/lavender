@@ -1,0 +1,26 @@
+{
+	"name": "@daw588/lavender",
+	"module": "src/index.ts",
+	"author": "Daw588",
+	"version": "1.0.0",
+	"type": "module",
+	"bin": {
+		"lavender": "src/index.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"esbuild": "^0.24.0",
+		"esbuild-svelte": "^0.8.2",
+		"puppeteer": "^23.5.1",
+		"sass": "^1.79.4",
+		"svelte-preprocess": "^6.0.3"
+	},
+	"trustedDependencies": [
+		"svelte-preprocess"
+	]
+}
